@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Image Example</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body class="column">
+    <header class="row justify-between align-center">
+        <img src="assets/pexels-daniel-nettesheim-1162361.jpg" alt="Background logo">
+        <button id="toggleTheme">Toggle Theme</button>
+    </header>
+
+    <main class="flex-1">
+        <h1 class="text-center">Marketing Blog</h1>
+        <form action="blog.html" class="column">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+    
+            <label for="blogTitle">Blog Title:</label>
+            <input type="text" id="blogTitle" name="blogTitle" required>
+    
+            <label for="blogContent">Blog Content:</label>
+            <textarea id="blogContent" name="blogContent" rows="4" required></textarea>
+    
+            <button id="submit-button">Submit</button>
+        </form>
+        
+    </main>
+
+    <script src="assets/js/form.js"></script>
+    <script src="assets/js/logic.js"></script>
+</body> 
+</html>

@@ -1,0 +1,56 @@
+
+.column {
+    flex-direction: column;
+}
+
+form {
+    width: 500px;
+    margin:  0 auto;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+}
+
+form input {
+    border: 1px solid;
+    padding: 5px 10px;
+}
+
+form * {
+    margin-bottom: 8px;
+    border-radius: 3px;
+}
+
+form button {
+    font-size: 1.3rem;
+    font-weight: 300;
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}    
+
+textarea {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.content {
+    padding: 20px;
+}
+
